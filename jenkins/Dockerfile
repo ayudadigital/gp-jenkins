@@ -1,4 +1,4 @@
-FROM teecke/jenkins-dind:2.222.1
+FROM tpbtools/jenkins-dind:2.222.1
 
 # Packages
 RUN apk add --no-cache rsync jq libxml2-utils docker-compose sed make
