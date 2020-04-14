@@ -1,5 +1,26 @@
 # Changelog
 
+## v1.1.0 (2020-04-14)
+
+### Changes
+
+#### Upgrade
+
+* Change references from teecke to tpbtools ([b324d36](https://github.com/tpbtools/gp-jenkins/commit/b324d36))
+
+#### Build
+
+* Update Auto Release Log adding v1.1.0 info with JPL ([ce0566e](https://github.com/tpbtools/gp-jenkins/commit/ce0566e))
+
+#### Docs
+
+* Update contributing ([4c5e2e8](https://github.com/tpbtools/gp-jenkins/commit/4c5e2e8))
+* Generate v1.0.0 changelog with JPL ([54dd819](https://github.com/tpbtools/gp-jenkins/commit/54dd819))
+
+### Authors
+
+* Pedro Amador
+
 ## v1.0.0 (2020-04-13)
 
 ### Changes
