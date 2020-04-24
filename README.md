@@ -2,13 +2,13 @@
 
 ## Overview
 
-Docker image and docker-compose sample configuration to bring up a Jenkins Service to the [Docker Generic Platform (GP)](https://github.com/tpbtools/docker-generic-platform).
+Docker image and docker-compose sample configuration to bring up a Jenkins Service to the [Docker Generic Platform (GP)](https://github.com/ayudadigital/docker-generic-platform).
 
 ## Configuration
 
 The service is formed by one container:
 
-- **jenkins**: based on [tpbtools/jenkins-dind](https://hub.docker.com/r/tpbtools/jenkins-dind) docker image.
+- **jenkins**: based on [ayudadigital/jenkins-dind](https://hub.docker.com/r/ayudadigital/jenkins-dind) docker image.
 
 ## Operation
 
@@ -29,7 +29,7 @@ The service is formed by one container:
 
 6. Stop the service with `docker-compose stop`.
 
-You can use this docker piece with the [Docker Generic Platform](https://github.com/tpbtools/docker-generic-platform) project.
+You can use this docker piece with the [Docker Generic Platform](https://github.com/ayudadigital/docker-generic-platform) project.
 
 ## Known issues
 
