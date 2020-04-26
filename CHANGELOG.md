@@ -1,5 +1,37 @@
 # Changelog
 
+## v2.1.0 (2020-04-26)
+
+### Changes
+
+#### Upgrade
+
+* Use jenkins-dind v2.222.3 ([2519449](https://github.com/ayudadigital/gp-jenkins/commit/2519449))
+
+#### Update
+
+* Use gp--jenkins v2.1.0 docker image tag in compose ([f7b9ab4](https://github.com/ayudadigital/gp-jenkins/commit/f7b9ab4))
+
+#### Build
+
+* Update Auto Release Log adding v2.1.0 info with JPL ([b3bb690](https://github.com/ayudadigital/gp-jenkins/commit/b3bb690))
+
+### Authors
+
+* Pedro Amador
+
+## v2.0.l0 (2020-04-24)
+
+### Changes
+
+#### Docs
+
+* Generate v2.0.0 changelog with JPL ([09d3826](https://github.com/ayudadigital/gp-jenkins/commit/09d3826))
+
+### Authors
+
+* 
+
 ## v2.0.0 (2020-04-24)
 
 ### Changes
