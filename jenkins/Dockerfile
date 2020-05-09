@@ -1,7 +1,14 @@
 FROM ayudadigital/jenkins-dind:2.222.3
 
 # Packages
-RUN apk add --no-cache rsync jq libxml2-utils docker-compose sed make
+RUN apk add --no-cache rsync jq libxml2-utils docker-compose sed make gawk
+
+# Add git-secret
+RUN cd /tmp && \
+    git clone https://github.com/sobolevn/git-secret.git git-secret && \
+    cd git-secret && \
+    make build && \
+    PREFIX="/usr/local" make install
 
 # Jenkins plugin installation
 USER jenkins
