@@ -1,7 +1,7 @@
 FROM ayudadigital/jenkins-dind:2.222.3
 
 # Packages
-RUN apk add --no-cache rsync jq libxml2-utils docker-compose sed make gawk
+RUN apk add --no-cache rsync jq libxml2-utils docker-compose sed make gawk gnupg
 
 # Add git-secret
 RUN cd /tmp && \
