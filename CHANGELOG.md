@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.2.0 (2020-05-09)
+
+### Changes
+
+#### New
+
+* Add git-secret ([5d04b6f](https://github.com/ayudadigital/gp-jenkins/commit/5d04b6f))
+
+#### Build
+
+* Update Auto Release Log adding v2.2.0 info with JPL ([85048ce](https://github.com/ayudadigital/gp-jenkins/commit/85048ce))
+
+#### Docs
+
+* Generate v2.1.0 changelog with JPL ([9b41deb](https://github.com/ayudadigital/gp-jenkins/commit/9b41deb))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.1.0 (2020-04-26)
 
 ### Changes
@@ -16,21 +36,13 @@
 
 * Update Auto Release Log adding v2.1.0 info with JPL ([b3bb690](https://github.com/ayudadigital/gp-jenkins/commit/b3bb690))
 
-### Authors
-
-* Pedro Amador
-
-## v2.0.l0 (2020-04-24)
-
-### Changes
-
 #### Docs
 
 * Generate v2.0.0 changelog with JPL ([09d3826](https://github.com/ayudadigital/gp-jenkins/commit/09d3826))
 
 ### Authors
 
-* 
+* Pedro Amador
 
 ## v2.0.0 (2020-04-24)
 
