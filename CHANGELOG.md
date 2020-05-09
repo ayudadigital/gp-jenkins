@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.2.1 (2020-05-09)
+
+### Changes
+
+#### Update
+
+* Add gnupg package ([c2927c9](https://github.com/ayudadigital/gp-jenkins/commit/c2927c9))
+
+#### Build
+
+* Update Auto Release Log adding v2.2.1 info with JPL ([b5821bb](https://github.com/ayudadigital/gp-jenkins/commit/b5821bb))
+
+#### Docs
+
+* Generate v2.2.0 changelog with JPL ([1e43559](https://github.com/ayudadigital/gp-jenkins/commit/1e43559))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.2.0 (2020-05-09)
 
 ### Changes
