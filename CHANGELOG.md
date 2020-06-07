@@ -1,5 +1,27 @@
 # Changelog
 
+## v2.3.0 (2020-06-07)
+
+### Changes
+
+#### Upgrade
+
+* Use jenkins-dind v2.222.4 ([685dc5a](https://github.com/ayudadigital/gp-jenkins/commit/685dc5a))
+* Add cucumber plugins and remove build-monitor plugin ([993f25b](https://github.com/ayudadigital/gp-jenkins/commit/993f25b))
+
+#### Build
+
+* Update Auto Release Log adding v2.3.0 info with JPL ([9683318](https://github.com/ayudadigital/gp-jenkins/commit/9683318))
+* Use ayudadigital jpl v5.0.0 ([8194dcf](https://github.com/ayudadigital/gp-jenkins/commit/8194dcf))
+
+#### Docs
+
+* Generate v2.2.1 changelog with JPL ([6133b3b](https://github.com/ayudadigital/gp-jenkins/commit/6133b3b))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.2.1 (2020-05-09)
 
 ### Changes
