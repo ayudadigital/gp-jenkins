@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.4.0 (2020-06-20)
+
+### Changes
+
+#### Upgrade
+
+* Use jenins-dind v2.235.1 ([6c6b9c0](https://github.com/ayudadigital/gp-jenkins/commit/6c6b9c0))
+
+#### Build
+
+* Update Auto Release Log adding v2.4.0 info with JPL ([bdd11ac](https://github.com/ayudadigital/gp-jenkins/commit/bdd11ac))
+
+#### Docs
+
+* Generate v2.3.0 changelog with JPL ([a196e87](https://github.com/ayudadigital/gp-jenkins/commit/a196e87))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.3.0 (2020-06-07)
 
 ### Changes
