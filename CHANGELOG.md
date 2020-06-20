@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.4.1 (2020-06-20)
+
+### Changes
+
+#### Fix
+
+* Use the right command in the entrypoint ([8abfa84](https://github.com/ayudadigital/gp-jenkins/commit/8abfa84))
+
+#### Build
+
+* Update Auto Release Log adding v2.4.1 info with JPL ([1c4dbfe](https://github.com/ayudadigital/gp-jenkins/commit/1c4dbfe))
+
+#### Docs
+
+* Generate v2.4.0 changelog with JPL ([bc9b3a0](https://github.com/ayudadigital/gp-jenkins/commit/bc9b3a0))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.4.0 (2020-06-20)
 
 ### Changes
