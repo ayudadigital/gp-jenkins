@@ -5,7 +5,6 @@ blueocean:latest
 build-timeout:latest
 cloudbees-bitbucket-branch-source:latest
 command-launcher:latest
-cucumber:latest
 cucumber-reports:latest
 email-ext:latest
 embeddable-build-status:latest
