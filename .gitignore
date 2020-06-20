@@ -1,2 +1,2 @@
-/data/jenkins_home
+/data/var/jenkins_home
 /docker-compose.yml

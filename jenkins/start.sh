@@ -12,4 +12,4 @@ if [ ! -f /usr/local/bin/devcontrol ]; then
 fi
 
 # Start jenkins-dind
-/usr/local/bin/tpb-jenkins-dind.sh "$@"
+/usr/local/bin/ayudadigital-jenkins-dind.sh "$@"
