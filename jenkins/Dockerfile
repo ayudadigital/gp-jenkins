@@ -1,4 +1,4 @@
-FROM ayudadigital/jenkins-dind:2.235.5
+FROM ayudadigital/jenkins-dind:2.249.1
 
 # Packages
 RUN apk add --no-cache rsync jq libxml2-utils docker-compose sed make gawk gnupg
