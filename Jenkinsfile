@@ -12,6 +12,7 @@ cfg = jplConfig('gp-jenkins', 'bash', '', [email: env.CI_NOTIFY_EMAIL_TARGETS])
  */
 def buildAndPublishDockerImage(nextReleaseNumber = "") {
     if (nextReleaseNumber == "") {
+        sh "git fetch --tags"
         nextReleaseNumber = sh (script: "kd get-next-release-number .", returnStdout: true).trim().substring(1)
     }
     docker.withRegistry("", 'docker-token') {
