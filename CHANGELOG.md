@@ -1,5 +1,23 @@
 # Changelog
 
+## v2.8.1 (2020-09-30)
+
+### Changes
+
+#### Build
+
+* Update Auto Release Log adding v2.8.1 info with JPL ([3fbe0a1](https://github.com/ayudadigital/gp-jenkins/commit/3fbe0a1))
+* Downgrade to jpl 5.0.0 ([94004c5](https://github.com/ayudadigital/gp-jenkins/commit/94004c5))
+* Fetch tags before get release tag ([34c1d0b](https://github.com/ayudadigital/gp-jenkins/commit/34c1d0b))
+
+#### Docs
+
+* Generate v2.8.0 changelog with JPL ([739c83d](https://github.com/ayudadigital/gp-jenkins/commit/739c83d))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.8.0 (2020-09-30)
 
 ### Changes
