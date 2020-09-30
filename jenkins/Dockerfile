@@ -16,9 +16,10 @@ COPY --chown=jenkins:jenkins plugins.txt /var/jenkins_home/plugins.txt
 RUN install-plugins.sh < /var/jenkins_home/plugins.txt
 USER root
 
-# Copy backup/cleanup scripts
+# Copy backup/cleanup and healthcheck scripts
 COPY backup /usr/local/bin/backup
 COPY cleanup /usr/local/bin/cleanup
+COPY healthcheck /usr/local/bin/healthcheck
 
 # Entrypoint
 COPY start.sh /

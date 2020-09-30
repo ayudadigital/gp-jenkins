@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+
+# Jenkins health check
+[ "$(curl -s -o /dev/null -w "%{http_code}" localhost:8080/login)" == "200" ]
+
+# Docker health check
+docker run --rm hello-world > /dev/null 2>&1
