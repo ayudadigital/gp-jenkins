@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.9.0 (2020-10-31)
+
+### Changes
+
+#### Upgrade
+
+* Use jenkins-dind v2.249.2 ([5701c8d](https://github.com/ayudadigital/gp-jenkins/commit/5701c8d))
+
+#### Build
+
+* Update Auto Release Log adding v2.9.0 info with JPL ([3527a95](https://github.com/ayudadigital/gp-jenkins/commit/3527a95))
+
+#### Docs
+
+* Generate v2.8.1 changelog with JPL ([458a8e2](https://github.com/ayudadigital/gp-jenkins/commit/458a8e2))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.8.1 (2020-09-30)
 
 ### Changes
