@@ -1,7 +1,8 @@
-FROM ayudadigital/jenkins-dind:2.249.1
+FROM ayudadigital/jenkins-dind:2.249.2
 
 # Packages
-RUN apk add --no-cache rsync jq libxml2-utils docker-compose sed make gawk gnupg
+RUN apk add --no-cache rsync jq libxml2-utils docker-compose sed make gawk vim gettext && \
+    apk add --no-cache git-secret --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing
 
 # Add git-secret
 RUN cd /tmp && \
