@@ -1,7 +1,7 @@
 version: '2.4'
 services:
   jenkins:
-    image: ayudadigital/gp-jenkins:2.10.0
+    image: ayudadigital/gp-jenkins:2.11.0
     build: jenkins
     ports:
       - 8080:8080
