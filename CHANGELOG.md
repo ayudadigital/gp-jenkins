@@ -1,5 +1,26 @@
 # Changelog
 
+## v2.11.0 (2020-12-05)
+
+### Changes
+
+#### Upgrade
+
+* Use jenkins-dind v2.263.1 ([c9629d4](https://github.com/ayudadigital/gp-jenkins/commit/c9629d4))
+* Remove blueocean and thinbackup plugins ([07f535c](https://github.com/ayudadigital/gp-jenkins/commit/07f535c))
+
+#### Build
+
+* Update Auto Release Log adding v2.11.0 info with JPL ([6106d78](https://github.com/ayudadigital/gp-jenkins/commit/6106d78))
+
+#### Docs
+
+* Generate v2.10.0 changelog with JPL ([001643d](https://github.com/ayudadigital/gp-jenkins/commit/001643d))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.10.0 (2020-11-14)
 
 ### Changes
