@@ -1,7 +1,6 @@
 ansicolor:latest
 antisamy-markup-formatter:latest
 bitbucket:latest
-blueocean:latest
 build-timeout:latest
 cloudbees-bitbucket-branch-source:latest
 command-launcher:latest
@@ -27,6 +26,5 @@ ssh-agent:latest
 ssh-credentials:latest
 ssh-slaves:latest
 ssh-steps:latest
-thinBackup:latest
 timestamper:latest
 warnings-ng:latest
