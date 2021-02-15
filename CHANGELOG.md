@@ -1,5 +1,26 @@
 # Changelog
 
+## v2.12.0 (2021-02-15)
+
+### Changes
+
+#### Upgrade
+
+* Use jenkins-dind v2.263.4 ([2992769](https://github.com/ayudadigital/gp-jenkins/commit/2992769))
+
+#### Build
+
+* Update Auto Release Log adding v2.12.0 info with JPL ([b4d33d1](https://github.com/ayudadigital/gp-jenkins/commit/b4d33d1))
+* Use jpl 6.0.2 ([62d3af7](https://github.com/ayudadigital/gp-jenkins/commit/62d3af7))
+
+#### Docs
+
+* Generate v2.11.0 changelog with JPL ([22b20ce](https://github.com/ayudadigital/gp-jenkins/commit/22b20ce))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.11.0 (2020-12-05)
 
 ### Changes
