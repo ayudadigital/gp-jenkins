@@ -1,5 +1,26 @@
 # Changelog
 
+## v2.13.1 (2021-03-28)
+
+### Changes
+
+#### Update
+
+* Use jpl v6.2.0 ([4c897ce](https://github.com/ayudadigital/gp-jenkins/commit/4c897ce))
+
+#### Build
+
+* Update Auto Release Log adding v2.13.1 info with JPL ([0fb0277](https://github.com/ayudadigital/gp-jenkins/commit/0fb0277))
+* Use jpl v6.2.0 ([bd3d69b](https://github.com/ayudadigital/gp-jenkins/commit/bd3d69b))
+
+#### Docs
+
+* Generate v2.13.0 changelog with JPL ([3377f72](https://github.com/ayudadigital/gp-jenkins/commit/3377f72))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.13.0 (2021-03-26)
 
 ### Changes
