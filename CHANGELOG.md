@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.19.0 (2022-02-12)
+
+### Changes
+
+#### Upgrade
+
+* Use jenkins-dind v2.319.3 ([fa7e4ff](https://github.com/ayudadigital/gp-jenkins/commit/fa7e4ff))
+
+#### Build
+
+* Update Auto Release Log adding v2.19.0 info with JPL ([f738f99](https://github.com/ayudadigital/gp-jenkins/commit/f738f99))
+
+#### Docs
+
+* Generate v2.18.0 changelog with JPL ([fec8fdb](https://github.com/ayudadigital/gp-jenkins/commit/fec8fdb))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.18.0 (2022-01-13)
 
 ### Changes
