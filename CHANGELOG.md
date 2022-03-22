@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.20.0 (2022-03-22)
+
+### Changes
+
+#### Upgrade
+
+* Usejenkins-dind v2.332.1 and review Dockerfile ([8bb6c8a](https://github.com/ayudadigital/gp-jenkins/commit/8bb6c8a))
+
+#### Build
+
+* Update Auto Release Log adding v2.20.0 info with JPL ([49297c3](https://github.com/ayudadigital/gp-jenkins/commit/49297c3))
+
+#### Docs
+
+* Generate v2.19.0 changelog with JPL ([19354d4](https://github.com/ayudadigital/gp-jenkins/commit/19354d4))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.19.0 (2022-02-12)
 
 ### Changes
