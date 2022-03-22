@@ -1,15 +1,8 @@
-FROM ayudadigital/jenkins-dind:2.319.3
+FROM ayudadigital/jenkins-dind:2.332.1
 
 # Packages
 RUN apk add --no-cache rsync jq libxml2-utils docker-compose sed make gawk vim gettext && \
     apk add --no-cache git-secret --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing
-
-# Add git-secret
-RUN cd /tmp && \
-    git clone https://github.com/sobolevn/git-secret.git git-secret && \
-    cd git-secret && \
-    make build && \
-    PREFIX="/usr/local" make install
 
 # Jenkins plugin installation
 USER jenkins
