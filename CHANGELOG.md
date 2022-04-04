@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.21.0 (2022-04-04)
+
+### Changes
+
+#### New
+
+* Add configuration-as-code-* plugins ([9997f22](https://github.com/ayudadigital/gp-jenkins/commit/9997f22))
+
+#### Build
+
+* Update Auto Release Log adding v2.21.0 info with JPL ([207e40d](https://github.com/ayudadigital/gp-jenkins/commit/207e40d))
+
+#### Docs
+
+* Generate v2.20.0 changelog with JPL ([e72f3df](https://github.com/ayudadigital/gp-jenkins/commit/e72f3df))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.20.0 (2022-03-22)
 
 ### Changes
