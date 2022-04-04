@@ -4,6 +4,8 @@ bitbucket:latest
 build-timeout:latest
 cloudbees-bitbucket-branch-source:latest
 command-launcher:latest
+configuration-as-code:latest
+configuration-as-code-groovy:latest
 cucumber-reports:latest
 email-ext:latest
 embeddable-build-status:latest

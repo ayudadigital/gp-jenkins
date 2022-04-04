@@ -1,7 +1,8 @@
 FROM ayudadigital/jenkins-dind:2.332.1
 
-# Packages
-RUN apk add --no-cache rsync jq libxml2-utils docker-compose sed make gawk vim gettext && \
+# Upgrade system and instlal extra packages
+RUN apk upgrade --no-cache && \
+    apk add --no-cache rsync jq libxml2-utils docker-compose sed make gawk vim gettext && \
     apk add --no-cache git-secret --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing
 
 # Jenkins plugin installation
