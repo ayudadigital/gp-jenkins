@@ -31,6 +31,20 @@ The service is formed by one container:
 
 You can use this docker piece with the [Docker Generic Platform](https://github.com/ayudadigital/docker-generic-platform) project.
 
+
+## Get plugins list from Jenkins instance
+
+To obtain an updated plugin version list, go to <https://your-instance/script> and execute this
+
+```
+Jenkins.instance.pluginManager.plugins.each{
+  plugin ->
+    println ("${plugin.getShortName()}:${plugin.getVersion()}")
+}
+```
+
+You will obtain a list with all plugins and their current versions.
+
 ## Known issues
 
 None known
