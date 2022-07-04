@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.24.0 (2022-07-04)
+
+### Changes
+
+#### Upgrade
+
+* Change plugin download method and update plugins versions ([2054205](https://github.com:ayudadigital/gp-jenkins/commit/2054205))
+
+#### Build
+
+* Update Auto Release Log adding v2.24.0 info with JPL ([8714ed9](https://github.com:ayudadigital/gp-jenkins/commit/8714ed9))
+
+#### Docs
+
+* Generate v2.23.0 changelog with JPL ([8a9dbb1](https://github.com:ayudadigital/gp-jenkins/commit/8a9dbb1))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.23.0 (2022-05-08)
 
 ### Changes
