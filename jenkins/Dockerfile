@@ -1,4 +1,4 @@
-FROM ayudadigital/jenkins-dind:2.332.3
+FROM ayudadigital/jenkins-dind:2.346.1
 
 # Upgrade system and instlal extra packages
 RUN apk upgrade --no-cache && \
@@ -6,10 +6,10 @@ RUN apk upgrade --no-cache && \
     apk add --no-cache git-secret --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing
 
 # Jenkins plugin installation
-USER jenkins
-COPY --chown=jenkins:jenkins plugins.txt /var/jenkins_home/plugins.txt
-RUN install-plugins.sh < /var/jenkins_home/plugins.txt
-USER root
+COPY plugins.txt /var/jenkins_home/plugins.txt
+RUN cd /tmp && \
+    wget https://github.com/jenkinsci/plugin-installation-manager-tool/releases/download/2.12.3/jenkins-plugin-manager-2.12.3.jar && \
+    java -jar jenkins-plugin-manager-2.12.3.jar --plugin-file /var/jenkins_home/plugins.txt --verbose
 
 # Copy backup/cleanup and healthcheck scripts
 COPY backup /usr/local/bin/backup
