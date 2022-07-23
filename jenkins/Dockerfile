@@ -1,4 +1,4 @@
-FROM ayudadigital/jenkins-dind:2.346.1
+FROM ayudadigital/jenkins-dind:2.346.2
 
 # Upgrade system and instlal extra packages
 RUN apk upgrade --no-cache && \
