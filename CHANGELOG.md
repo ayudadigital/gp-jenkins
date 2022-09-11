@@ -1,5 +1,29 @@
 # Changelog
 
+## v2.27.0 (2022-09-11)
+
+### Changes
+
+#### Upgrade
+
+* Use jenkins-dind v2.363.1 ([2249dab](https://github.com:ayudadigital/gp-jenkins/commit/2249dab))
+
+#### Fix
+
+* Use Jenkins v2.361.1 ([a0612da](https://github.com:ayudadigital/gp-jenkins/commit/a0612da))
+
+#### Build
+
+* Update Auto Release Log adding v2.27.0 info with JPL ([94837ee](https://github.com:ayudadigital/gp-jenkins/commit/94837ee))
+
+#### Docs
+
+* Generate v2.26.0 changelog with JPL ([002551b](https://github.com:ayudadigital/gp-jenkins/commit/002551b))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.26.0 (2022-08-11)
 
 ### Changes
