@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.29.0 (2023-01-16)
+
+### Changes
+
+#### Upgrade
+
+* Use jenkins-dind v2.375.2 ([fc64e55](https://github.com:ayudadigital/gp-jenkins/commit/fc64e55))
+
+#### Build
+
+* Update Auto Release Log adding v2.29.0 info with JPL ([b8d3c55](https://github.com:ayudadigital/gp-jenkins/commit/b8d3c55))
+
+#### Docs
+
+* Generate v2.28.0 changelog with JPL ([1900ff2](https://github.com:ayudadigital/gp-jenkins/commit/1900ff2))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.28.0 (2022-12-04)
 
 ### Changes
