@@ -1,5 +1,27 @@
 # Changelog
 
+## v2.30.0 (2023-03-18)
+
+### Changes
+
+#### Upgrade
+
+* Use image from gh registry ([e4cae5d](https://github.com:ayudadigital/gp-jenkins/commit/e4cae5d))
+* Use jenkins-dind v2.387.1 ([f410f89](https://github.com:ayudadigital/gp-jenkins/commit/f410f89))
+
+#### Build
+
+* Update Auto Release Log adding v2.30.0 info with JPL ([1c352cf](https://github.com:ayudadigital/gp-jenkins/commit/1c352cf))
+* Migrate to gh docker registry ([d6baa60](https://github.com:ayudadigital/gp-jenkins/commit/d6baa60))
+
+#### Docs
+
+* Generate v2.29.0 changelog with JPL ([ef6de35](https://github.com:ayudadigital/gp-jenkins/commit/ef6de35))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.29.0 (2023-01-16)
 
 ### Changes
