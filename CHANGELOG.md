@@ -1,5 +1,21 @@
 # Changelog
 
+## v2.30.2 (2023-03-19)
+
+### Changes
+
+#### Build
+
+* Update Auto Release Log adding v2.30.2 info with JPL ([99dc4ae](https://github.com/ayudadigital/gp-jenkins/commit/99dc4ae))
+
+#### Docs
+
+* Generate v2.30.1 changelog with JPL ([b82874c](https://github.com/ayudadigital/gp-jenkins/commit/b82874c))
+
+### Authors
+
+* 
+
 ## v2.30.1 (2023-03-19)
 
 ### Changes
