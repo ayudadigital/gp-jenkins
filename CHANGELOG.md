@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.30.3 (2023-03-20)
+
+### Changes
+
+#### Update
+
+* Add docker gh label info ([b51ef52](https://github.com/ayudadigital/gp-jenkins/commit/b51ef52))
+
+#### Build
+
+* Update Auto Release Log adding v2.30.3 info with JPL ([15d2fc1](https://github.com/ayudadigital/gp-jenkins/commit/15d2fc1))
+
+#### Docs
+
+* Generate v2.30.2 changelog with JPL ([e771519](https://github.com/ayudadigital/gp-jenkins/commit/e771519))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.30.2 (2023-03-19)
 
 ### Changes
