@@ -1,5 +1,9 @@
 FROM ghcr.io/ayudadigital/jenkins-dind:2.387.1
 
+LABEL org.opencontainers.image.source=https://github.com/ayudadigital/gp-jenkins
+LABEL org.opencontainers.image.description="Generic Platform - Jenkins Service"
+LABEL org.opencontainers.image.licenses=MIT
+
 # Upgrade system and instlal extra packages
 RUN apk upgrade --no-cache && \
     apk add --no-cache rsync jq libxml2-utils docker-compose sed make gawk vim gettext && \
