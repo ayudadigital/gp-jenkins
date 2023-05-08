@@ -1,4 +1,4 @@
-FROM ghcr.io/ayudadigital/jenkins-dind:2.387.1
+FROM ghcr.io/ayudadigital/jenkins-dind:2.387.3
 
 LABEL org.opencontainers.image.source=https://github.com/ayudadigital/gp-jenkins
 LABEL org.opencontainers.image.description="Generic Platform - Jenkins Service"
