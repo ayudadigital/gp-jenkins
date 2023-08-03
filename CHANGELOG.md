@@ -1,5 +1,26 @@
 # Changelog
 
+## v2.33.0 (2023-08-03)
+
+### Changes
+
+#### Upgrade
+
+* Put latest plugins version ([e5f641f](https://github.com/ayudadigital/gp-jenkins/commit/e5f641f))
+* Use jenkins-dind v2.401.3 ([0f025fd](https://github.com/ayudadigital/gp-jenkins/commit/0f025fd))
+
+#### Build
+
+* Update Auto Release Log adding v2.33.0 info with JPL ([39c648d](https://github.com/ayudadigital/gp-jenkins/commit/39c648d))
+
+#### Docs
+
+* Generate v2.32.0 changelog with JPL ([bc7d95b](https://github.com/ayudadigital/gp-jenkins/commit/bc7d95b))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.32.0 (2023-06-11)
 
 ### Changes
