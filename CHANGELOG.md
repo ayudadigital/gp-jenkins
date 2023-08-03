@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.33.1 (2023-08-03)
+
+### Changes
+
+#### Update
+
+* Review plugin list, adding missing ones ([635b20c](https://github.com/ayudadigital/gp-jenkins/commit/635b20c))
+
+#### Build
+
+* Update Auto Release Log adding v2.33.1 info with JPL ([d1bcd41](https://github.com/ayudadigital/gp-jenkins/commit/d1bcd41))
+
+#### Docs
+
+* Generate v2.33.0 changelog with JPL ([51cfc99](https://github.com/ayudadigital/gp-jenkins/commit/51cfc99))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.33.0 (2023-08-03)
 
 ### Changes
