@@ -3,7 +3,7 @@
 @Library('jenkins-pipeline-library') _
 
 // Initialize global config
-cfg = jplConfig('gp-jenkins', 'bash', '', [email: env.CI_NOTIFY_EMAIL_TARGETS])
+cfg = jplConfig('gp-jenkins', 'bash', '', [email: env.CI_NOTIFY_EMAIL_TARGETS], 'main')
 
 /**
  * Build and publish docker images
