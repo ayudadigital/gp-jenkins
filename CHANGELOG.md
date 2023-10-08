@@ -1,5 +1,27 @@
 # Changelog
 
+## v2.34.1 (2023-10-08)
+
+### Changes
+
+#### Update
+
+* Use main branch of docker-command-launcher and devcontrol assets ([1c593a0](https://github.com/ayudadigital/gp-jenkins/commit/1c593a0))
+* Use v2.12.13 release of plugin manager ([419820d](https://github.com/ayudadigital/gp-jenkins/commit/419820d))
+
+#### Build
+
+* Update Auto Release Log adding v2.34.1 info with JPL ([f63e73a](https://github.com/ayudadigital/gp-jenkins/commit/f63e73a))
+* Use main branch instead master ([23cc51f](https://github.com/ayudadigital/gp-jenkins/commit/23cc51f))
+
+#### Docs
+
+* Generate v2.34.0 changelog with JPL ([2c9b7e3](https://github.com/ayudadigital/gp-jenkins/commit/2c9b7e3))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.34.0 (2023-09-24)
 
 ### Changes
