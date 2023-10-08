@@ -12,8 +12,8 @@ RUN apk upgrade --no-cache && \
 # Jenkins plugin installation
 COPY plugins.txt /var/jenkins_home/plugins.txt
 RUN cd /tmp && \
-    wget https://github.com/jenkinsci/plugin-installation-manager-tool/releases/download/2.12.3/jenkins-plugin-manager-2.12.3.jar && \
-    java -jar jenkins-plugin-manager-2.12.3.jar --plugin-file /var/jenkins_home/plugins.txt --verbose
+    wget https://github.com/jenkinsci/plugin-installation-manager-tool/releases/download/2.12.13/jenkins-plugin-manager-2.12.13.jar && \
+    java -jar jenkins-plugin-manager-2.12.13.jar --plugin-file /var/jenkins_home/plugins.txt --verbose
 
 # Copy backup/cleanup and healthcheck scripts
 COPY backup /usr/local/bin/backup
