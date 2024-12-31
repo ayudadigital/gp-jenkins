@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.37.1 (2024-12-31)
+
+### Changes
+
+#### Fix
+
+* Add path to Dockerfile due to missing java in PATH env for jenkins user ([d61ecf3](https://github.com/ayudadigital/gp-jenkins/commit/d61ecf3))
+
+#### Build
+
+* Update Auto Release Log adding v2.37.1 info with JPL ([16c6bf7](https://github.com/ayudadigital/gp-jenkins/commit/16c6bf7))
+
+#### Docs
+
+* Generate v2.37.0 changelog with JPL ([e0b3b40](https://github.com/ayudadigital/gp-jenkins/commit/e0b3b40))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.37.0 (2024-12-31)
 
 ### Changes
