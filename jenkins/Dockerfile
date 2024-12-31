@@ -4,6 +4,9 @@ LABEL org.opencontainers.image.source=https://github.com/ayudadigital/gp-jenkins
 LABEL org.opencontainers.image.description="Generic Platform - Jenkins Service"
 LABEL org.opencontainers.image.licenses=MIT
 
+# Set path to all users, not only root (bugfix for jenkins user=1000 with latest docker image versions)
+ENV PATH="/opt/java/openjdk/bin:$PATH"
+
 # Upgrade system and instlal extra packages
 RUN apk upgrade --no-cache && \
     apk add --no-cache rsync jq libxml2-utils docker-compose sed make gawk vim gettext && \
