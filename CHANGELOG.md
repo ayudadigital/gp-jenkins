@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.37.2 (2024-12-31)
+
+### Changes
+
+#### Update
+
+* Remove double adding java path to PATH env var ([5e9d016](https://github.com/ayudadigital/gp-jenkins/commit/5e9d016))
+
+#### Build
+
+* Update Auto Release Log adding v2.37.2 info with JPL ([ebd9ae3](https://github.com/ayudadigital/gp-jenkins/commit/ebd9ae3))
+
+#### Docs
+
+* Generate v2.37.1 changelog with JPL ([7be7404](https://github.com/ayudadigital/gp-jenkins/commit/7be7404))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.37.1 (2024-12-31)
 
 ### Changes
